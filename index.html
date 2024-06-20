@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zitang's Portfolio</title>
+    <link rel="stylesheet" href="styles_two.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_three.css">
+    <link rel="stylesheet" href="styles_four.css">
+    <link rel="stylesheet" href="styles_five.css">
+    <link rel="stylesheet" href="button.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="vscode">
+<!-- top title bar -->
+        <div class="title-bar">
+            <div class="window-controls">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <span class="title">Zitang's Portfolio</span>
+        </div>
+<!-- side title bar -->
+        <div class="main">
+            <div class="sidebar">
+                <ul>
+                    <li data-target="home" class="home-icon"><img src="img/html-icon.png" alt="Home Icon"> Home.html</li>
+                    <li data-target="about" class="about-icon"><img src="img/css-icon.png" alt="About Icon"> About.css</li>
+                    <li data-target="projects" class="projects-icon"><img src="img/javascript-programming-language-icon.png" alt="Projects Icon"> Projects.js</li>
+                    <li data-target="contact" class="contact-icon"><img src="img/file-type-json.1022x1024.png" alt="Contact Icon"> Contact.json</li>
+                    <li data-target="pdf" class="pdf-icon"><img src="img/pdf-icon.png" alt="Pdf Icon"> Resume.pdf</li>
+                </ul>
+            </div>
+            <div class="content">
+<!-- home page -->
+                <section id="home" class="active">
+                    <pre id="typewriter">
+    <span class="var-highlight">var</span><span class="introduction"> introduction </span>= <span class="bracket">{</span>
+
+            <span class="introduction-blue">name</span>: <span class="string-highlight">'Tan Zitang'</span>,
+
+            <span class="introduction-blue">type</span>: <span class="string-highlight">'Mecahtronics Engineer'</span>,
+
+            <span class="introduction-blue">properties</span>: <span class="string-highlight">'I love coding,
+                        exploring robotics like Microprocessors,
+                        and learning new technologies.'</span>,
+
+            <span class="introduction-blue">passion</span>: <span class="bracket">[</span><span class="string-highlight">'Robotics'</span>,
+                    <span class="string-highlight">'Web Development'</span>,
+                    <span class="string-highlight">'Microprocessor and Microprocessor'</span>,
+                    <span class="string-highlight">'Coding'</span>,
+                    <span class="string-highlight">'Math'</span>,
+                    <span class="string-highlight">'Machine Learning'</span>,
+                    <span class="string-highlight">'Artificial Intelligence'</span><span class="bracket">]</span>;
+
+    <span class="bracket">}</span>; </pre>
+                </section>
+<!-- about page -->
+                <section id="about">
+                    <pre id="typewriter2">
+    <span class="var-highlight">const</span><span class="about_me"> object </span>= <span class="bracket">{</span>
+
+            <span class="about_me_elaborate">'Energetic Mechatronics Engineering graduate with expertise
+            in mechanical and electronic systems.
+
+            Skilled in AI, machine learning, web development,
+            and automated system design.
+
+            Proven problem-solver and team player from
+            collaborative projects and internships.
+
+            Ready to bring innovation
+            and continuous learning to a dynamic engineering role.'</span>
+
+    <span class="bracket">}</span>; </pre>
+                </section>
+<!-- project page -->
+                <section id="projects">
+                    <pre id="typewriter3">
+    <span class="var-highlight">void </span><span class="introduction">projects</span>: <span class="button-click">    /* click on the project's name below */</span></pre>
+
+                    <div class="container">
+                        <button class="tab-button" onclick="showDescription(1)">Mechatronics System Design</button>
+                        <button class="tab-button" onclick="showDescription(2)">Soft Robotics Designation</button>
+                        <button class="tab-button" onclick="showDescription(3)">3D Printing</button>
+                
+                        <div id="description-1" class="description">
+                            <p><span class="bracket">[</span> 'In this project, I designed and built a prototype for a pick-and-place assembly system, integrating concepts from 3D printing technology. The prototype operates along the X, Y, and Z axes, allowing precise movement and placement of components.' <span class="bracket">]</span></p>
+                        </div>
+                
+                        <div id="description-2" class="description">
+                            <p><span class="bracket">[</span> 'This project focuses on designing a soft robot capable of maneuvering in tight spaces. The design uses pneumatic actuation and a pleated segment structure, with Ecoflex as the chosen material for its ease of use and suitability for building a simple, maneuverable robot. Finite Element Modelling was employed to compare different robot structures with varying bending motions, aiming to determine the optimal design from three different structures.' <span class="bracket">]</span></p>
+                        </div>
+                
+                        <div id="description-3" class="description">
+                            <p><span class="bracket">[</span> 'I embarked on a self-taught journey into 3D printing after purchasing my first printer. Starting with simple prints, I gradually honed my skills through online tutorials and experimentation with various materials like PLA. This journey allowed me to create a diverse range of functional and aesthetic objects while overcoming challenges and refining my technique along the way.' <span class="bracket">]</span></p>
+                        </div>
+                    </div>
+
+                </section>
+<!-- contact page -->
+                <section id="contact">
+                    <pre id="typewriter4">
+    <span class="var-highlight">function</span><span class="contact_all"> contact </span>= <span class="bracket">{</span>       <span class="hyperlinks">/* click on the hyperlinks below */</span>
+
+            <img src="img/gmail-icon.png" alt="email Icon" width="60"> <a href="mailto:tanzitang2000@gmail.com">Email</a>
+
+            <img src="img/accept-call-icon.png" alt="phone Icon" width="60"> <a href="tel:0127220511">Phone Number</a>
+
+            <img src="img/linkedin-app-icon.png" alt="linkedin Icon" width="60"> <a href="https://www.linkedin.com/in/tan-zitang-86b573278?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLrdKiQo%2FROqhxUoEmz5Qdg%3D%3D">LinkedIn</a>
+
+            <img src="img/github-icon.png" alt="github Icon" width="60"> <a href="https://github.com/LOLilolilolpop">GitHub</a>
+
+    <span class="bracket">}</span>;</pre>
+                </section>
+<!-- pdf page -->
+                <section id="pdf">
+                    <pre id="typewriter5">
+            <span class="introduction-blue">class</span> = <span class="string-highlight">'</span>Click on the icon to download Resume.<span class="string-highlight">'</span></pre>
+
+            <div class="pdf_resume" ><a href="Tan Zitang's Resume.pdf"><img src="img/download-pdf-icon.png" width="180"/></a></div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="button.js"></script>
+</body>
+</html>

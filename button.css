@@ -1,0 +1,82 @@
+.description {
+  color: rgba(253, 149, 90, 0.8);
+  display: none;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.button {
+  font-family: "Courier New";
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-click {
+  font-size: 30px;
+  color: green;
+}
+
+.description-blue {
+  color: #add8e6;
+  font-size: 28px;
+}
+
+.dot {
+  font-size: 28px;
+  color: white;
+}
+
+.bracket-button {
+  font-size: 24px;
+  color: yellow;
+}
+
+.description-gold {
+  color: #c0ad60;
+  font-size: 28px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.tab-button {
+  font-family: "Source Code Pro", Tahoma, Geneva, Verdana, sans-serif;
+  color: #add8e6;
+  font-size: 30px;
+  background-color: #1c1b1b;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.description p {
+  line-height: 50px;
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+.description {
+  display: none;
+  margin-top: 50px;
+  margin-right: 500px;
+  text-align: left;
+}
+
+.description.active {
+  display: block;
+}

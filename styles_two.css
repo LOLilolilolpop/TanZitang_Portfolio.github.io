@@ -1,0 +1,36 @@
+.about_me {
+  color: #c0ad60;
+}
+
+.about_me_elaborate {
+  color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter2 {
+  font-size: 2em;
+  margin: 0;
+  font-family: "Courier New";
+  color: white;
+}
+#typewriter2:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
